@@ -1,0 +1,21 @@
+# Xcode build output and local state
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Local archived sources and previews
+_to_delete/
+
+# macOS and Python caches
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/

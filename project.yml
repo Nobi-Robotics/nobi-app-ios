@@ -1,0 +1,75 @@
+name: Nobi
+options:
+  bundleIdPrefix: com.ios
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: false
+
+packages: {}
+
+targets:
+  Nobi:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: Nobi
+        excludes:
+          - "Resources/Preview.content"
+    info:
+      path: Nobi/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Nobi
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "2"
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchMark
+          UIImageRespectsSafeAreaInsets: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSBluetoothAlwaysUsageDescription: Nobi uses Bluetooth to find, connect and sync your Nobi robots.
+        NSBluetoothPeripheralUsageDescription: Nobi uses Bluetooth to find, connect and sync your Nobi robots.
+        NSPhotoLibraryUsageDescription: Pick a photo to draw on your robot's screen.
+        UIAppFonts:
+          - Fraunces-Regular.ttf
+          - Fraunces-Italic.ttf
+          - Fraunces-SemiBold.ttf
+          - InstrumentSans-Regular.ttf
+          - InstrumentSans-Medium.ttf
+          - InstrumentSans-SemiBold.ttf
+          - InstrumentSans-Bold.ttf
+          - IBMPlexMono-Regular.ttf
+          - IBMPlexMono-Medium.ttf
+          - IBMPlexMono-SemiBold.ttf
+          - Gaegu-Bold.ttf
+    entitlements:
+      path: Nobi/Resources/Nobi.entitlements
+    settings:
+      base:
+        PRODUCT_NAME: Nobi
+        PRODUCT_BUNDLE_IDENTIFIER: com.ios.nobirobotics
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: Nobi/Resources/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: VD4LV2WMH4
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+        Release: {}
+
+schemes:
+  Nobi:
+    build:
+      targets:
+        Nobi: all
+    run:
+      config: Debug
+    archive:
+      config: Release

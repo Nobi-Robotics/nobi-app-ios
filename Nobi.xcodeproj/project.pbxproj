@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AC4CE5354571D741D5ECF6 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A41A07A9AEBC6738706690C /* PlayView.swift */; };
+		0FD752379D7173CCAC00536F /* NobiEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778F8530C884DDF36B9B4825 /* NobiEmotion.swift */; };
+		1906E76849D3059A2F466DB6 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E963D12E5FBF53ECC8455B /* SplashView.swift */; };
+		1AB33E4CE428A4FDB42D61B5 /* InstrumentSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1286ED3739DB6F733A15461 /* InstrumentSans-Bold.ttf */; };
+		289B76890E3BDEE0593300B6 /* Fraunces-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D65DF0638592CCF250F2A0F1 /* Fraunces-Regular.ttf */; };
+		2BB7EBE79904F1F1C1D219DC /* InstrumentSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 139BA2DB716938FCBE0EE98B /* InstrumentSans-Medium.ttf */; };
+		2C9E383648E45041F805F92A /* NobiFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68492AB23059C64A4431177 /* NobiFleet.swift */; };
+		36C4994FE1B23121FA597BDA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522A60E25C599183275518E0 /* SettingsView.swift */; };
+		37682118834B895034D67608 /* InstrumentSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D350DAD1FF3770903727570A /* InstrumentSans-Regular.ttf */; };
+		3F661C7A6C108B9559CC8F2F /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F491CA7391F68E6EBD1377D /* GoalsView.swift */; };
+		4209055C26C3CB687A513722 /* OLEDPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3F46B17D84CD0E5355AD78 /* OLEDPreviewView.swift */; };
+		45BAD5E8E6B285425E446458 /* EmotionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D6C82D5A89406BFDBA373E /* EmotionsView.swift */; };
+		46D57F4939CE2E0234630F15 /* PairingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A9D63138F359C281BF56B5 /* PairingSheet.swift */; };
+		4A8223F6F70E0A478C4FC38F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1776656D8AE11C81C67CD0 /* ImageView.swift */; };
+		4F12D01807F7AC607515FE0A /* InkEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8DE03E283DC9E6062E783 /* InkEffects.swift */; };
+		6B1D60D7A66ADD375A122373 /* NobiImageConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642AEFE109DDF09C0070FFE /* NobiImageConverter.swift */; };
+		6DD9E1054666DFC58A45D4BA /* NobiDeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F880E2C1D752BFD08C13FB8 /* NobiDeviceState.swift */; };
+		6DE58ABCA09C5FA279A6049A /* NobiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 249BE45ED4B71369B0B8A21A /* NobiProtocol.swift */; };
+		713CED0FAE20E0A16D729658 /* RobotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62668DA4A87FD5C2C44BFF13 /* RobotsView.swift */; };
+		72E3947663D7FF5D8C98993A /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6BBA9872CFB4143A09CB8E /* MusicView.swift */; };
+		91139B1C172B264082C223B3 /* NobiPet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A6AE86391C49B827425E52 /* NobiPet.swift */; };
+		92A729DB8D61A3FEAA92C36D /* MainShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF0CDCF80F7781D393E3861 /* MainShellView.swift */; };
+		942EC0FC5623BAB7285FE173 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE770A0F8B85F2BD90AEDF /* IBMPlexMono-SemiBold.ttf */; };
+		9895FCF8EBFCD91EDA5E420D /* Fraunces-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E62AB96ED814B3E55BDC6B1 /* Fraunces-SemiBold.ttf */; };
+		9F0BFA18864452EF8BB41BCC /* InstrumentSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75E09CC14790247A2B9555A4 /* InstrumentSans-SemiBold.ttf */; };
+		A23C9A6C303B129E9A8AC99A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C422117BF29D360173209B /* NotificationView.swift */; };
+		B6AAC893F7783263C65B4737 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F558A0DBB74C419418EDF431 /* TextView.swift */; };
+		B8FBC037B3190107D2E1A920 /* NobiRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E72A8E2B81588F935D3E04 /* NobiRobot.swift */; };
+		B98C90D847C5C9DE9944DEB4 /* KairoFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7A84A82314B0670B6E01F /* KairoFeatures.swift */; };
+		BA99DE1F58FBCB8DA029A326 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BB354116B14590E9B815A0 /* HomeView.swift */; };
+		C105CDDFC7595400672171D2 /* NobiProximityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E456985F8DF96059602133A /* NobiProximityMonitor.swift */; };
+		C3C81EBDF4F05708D299A616 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB72477F83C7AAA8DFE9F26 /* RemindersView.swift */; };
+		CA821FB3B3D36A1AF2B4C486 /* KairoMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC3CDBE1CA35461E7264A45 /* KairoMusic.swift */; };
+		CDC44A665C6B062C019065D0 /* Gaegu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A99488E01FF20CF40F0029B5 /* Gaegu-Bold.ttf */; };
+		CDE88A9CDC46D1309D9B2A02 /* NobiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA4A61ABD71F5CAD8293E0 /* NobiApp.swift */; };
+		CF4D8C6CA078723F45C890BB /* KairoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241FC60D7B0072282B9C52EE /* KairoViews.swift */; };
+		D0DDB3940EC578E409A24495 /* NobiGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9930EBBE28A7A05117D8E4D6 /* NobiGame.swift */; };
+		D1FB4D1B6FA0FB0B70CAF00C /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6AAA53A1BE73183A51A0F38 /* CreateView.swift */; };
+		D7404AFECA237A0B61207813 /* Fraunces-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 830EFF659A1857F273277800 /* Fraunces-Italic.ttf */; };
+		DB05A2D4FF9E63F9E8BC19DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D75AEC6A2AB2AEAD2722E60 /* Assets.xcassets */; };
+		DB5C68847F64A1C2558DD20F /* IBMPlexMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D1A64D207B28372A0B50304 /* IBMPlexMono-Medium.ttf */; };
+		E0660B0DD70A9C9190AA25A5 /* NobiTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651143D878C5E50A608CD863 /* NobiTheme.swift */; };
+		E3206F96BF24F2F673E491E8 /* FleetComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB653AF447B66600A35CC19 /* FleetComponents.swift */; };
+		E4CFFEEF905163CD3028A821 /* IBMPlexMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFA23851B9F3F20352AD8D45 /* IBMPlexMono-Regular.ttf */; };
+		E74D93EA9E74A1A5A09265F0 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA273143B5E957B4151628F /* FocusView.swift */; };
+		E88F62C543CC088B2E895B72 /* Dithering.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA426AF2522BF4FD8375264F /* Dithering.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07F8DE03E283DC9E6062E783 /* InkEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InkEffects.swift"; sourceTree = "<group>"; };
+		0E456985F8DF96059602133A /* NobiProximityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiProximityMonitor.swift"; sourceTree = "<group>"; };
+		139BA2DB716938FCBE0EE98B /* InstrumentSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Medium.ttf"; sourceTree = "<group>"; };
+		241FC60D7B0072282B9C52EE /* KairoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KairoViews.swift"; sourceTree = "<group>"; };
+		249BE45ED4B71369B0B8A21A /* NobiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiProtocol.swift"; sourceTree = "<group>"; };
+		30BB354116B14590E9B815A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		3EEE770A0F8B85F2BD90AEDF /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
+		4642AEFE109DDF09C0070FFE /* NobiImageConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiImageConverter.swift"; sourceTree = "<group>"; };
+		4BB72477F83C7AAA8DFE9F26 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemindersView.swift"; sourceTree = "<group>"; };
+		522A60E25C599183275518E0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		55A9D63138F359C281BF56B5 /* PairingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PairingSheet.swift"; sourceTree = "<group>"; };
+		5A41A07A9AEBC6738706690C /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayView.swift"; sourceTree = "<group>"; };
+		5E62AB96ED814B3E55BDC6B1 /* Fraunces-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fraunces-SemiBold.ttf"; sourceTree = "<group>"; };
+		5F491CA7391F68E6EBD1377D /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoalsView.swift"; sourceTree = "<group>"; };
+		62668DA4A87FD5C2C44BFF13 /* RobotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RobotsView.swift"; sourceTree = "<group>"; };
+		64C422117BF29D360173209B /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationView.swift"; sourceTree = "<group>"; };
+		651143D878C5E50A608CD863 /* NobiTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiTheme.swift"; sourceTree = "<group>"; };
+		6BB653AF447B66600A35CC19 /* FleetComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FleetComponents.swift"; sourceTree = "<group>"; };
+		75E09CC14790247A2B9555A4 /* InstrumentSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		778F8530C884DDF36B9B4825 /* NobiEmotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiEmotion.swift"; sourceTree = "<group>"; };
+		7D75AEC6A2AB2AEAD2722E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		7DC3CDBE1CA35461E7264A45 /* KairoMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KairoMusic.swift"; sourceTree = "<group>"; };
+		81E963D12E5FBF53ECC8455B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SplashView.swift"; sourceTree = "<group>"; };
+		830EFF659A1857F273277800 /* Fraunces-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fraunces-Italic.ttf"; sourceTree = "<group>"; };
+		8C1776656D8AE11C81C67CD0 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView.swift"; sourceTree = "<group>"; };
+		8D1A64D207B28372A0B50304 /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
+		9930EBBE28A7A05117D8E4D6 /* NobiGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiGame.swift"; sourceTree = "<group>"; };
+		9F880E2C1D752BFD08C13FB8 /* NobiDeviceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiDeviceState.swift"; sourceTree = "<group>"; };
+		A1286ED3739DB6F733A15461 /* InstrumentSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Bold.ttf"; sourceTree = "<group>"; };
+		A6AAA53A1BE73183A51A0F38 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateView.swift"; sourceTree = "<group>"; };
+		A99488E01FF20CF40F0029B5 /* Gaegu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaegu-Bold.ttf"; sourceTree = "<group>"; };
+		AD6BBA9872CFB4143A09CB8E /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MusicView.swift"; sourceTree = "<group>"; };
+		B4A6AE86391C49B827425E52 /* NobiPet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiPet.swift"; sourceTree = "<group>"; };
+		B4E72A8E2B81588F935D3E04 /* NobiRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiRobot.swift"; sourceTree = "<group>"; };
+		BAF0CDCF80F7781D393E3861 /* MainShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainShellView.swift"; sourceTree = "<group>"; };
+		C0D8A17FA99449324E6D5890 /* Nobi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nobi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B7A84A82314B0670B6E01F /* KairoFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KairoFeatures.swift"; sourceTree = "<group>"; };
+		D0D6C82D5A89406BFDBA373E /* EmotionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EmotionsView.swift"; sourceTree = "<group>"; };
+		D350DAD1FF3770903727570A /* InstrumentSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Regular.ttf"; sourceTree = "<group>"; };
+		D65DF0638592CCF250F2A0F1 /* Fraunces-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fraunces-Regular.ttf"; sourceTree = "<group>"; };
+		DA426AF2522BF4FD8375264F /* Dithering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dithering.swift"; sourceTree = "<group>"; };
+		DECA4A61ABD71F5CAD8293E0 /* NobiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiApp.swift"; sourceTree = "<group>"; };
+		DFA23851B9F3F20352AD8D45 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		ED3F46B17D84CD0E5355AD78 /* OLEDPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OLEDPreviewView.swift"; sourceTree = "<group>"; };
+		F41127887029EB5C5D3B999D /* Nobi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nobi.entitlements"; sourceTree = "<group>"; };
+		F558A0DBB74C419418EDF431 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView.swift"; sourceTree = "<group>"; };
+		F68492AB23059C64A4431177 /* NobiFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NobiFleet.swift"; sourceTree = "<group>"; };
+		FBCBDD8F32721E1B9C452AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Info.plist"; sourceTree = "<group>"; };
+		FDA273143B5E957B4151628F /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FocusView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E62DEFE36098197A95877730 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DECA4A61ABD71F5CAD8293E0 /* NobiApp.swift */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		C4CB3EA3341E4F7B3A52C5D6 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				9F880E2C1D752BFD08C13FB8 /* NobiDeviceState.swift */,
+				F68492AB23059C64A4431177 /* NobiFleet.swift */,
+				249BE45ED4B71369B0B8A21A /* NobiProtocol.swift */,
+				0E456985F8DF96059602133A /* NobiProximityMonitor.swift */,
+				B4E72A8E2B81588F935D3E04 /* NobiRobot.swift */,
+			);
+			path = "Bluetooth";
+			sourceTree = "<group>";
+		};
+		6933F8856A87960906933175 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				DA426AF2522BF4FD8375264F /* Dithering.swift */,
+				4642AEFE109DDF09C0070FFE /* NobiImageConverter.swift */,
+			);
+			path = "Image";
+			sourceTree = "<group>";
+		};
+		48CEF4B802498A27FB41C7C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3B7A84A82314B0670B6E01F /* KairoFeatures.swift */,
+				7DC3CDBE1CA35461E7264A45 /* KairoMusic.swift */,
+				778F8530C884DDF36B9B4825 /* NobiEmotion.swift */,
+				9930EBBE28A7A05117D8E4D6 /* NobiGame.swift */,
+				B4A6AE86391C49B827425E52 /* NobiPet.swift */,
+			);
+			path = "Models";
+			sourceTree = "<group>";
+		};
+		C50F98321C0857EDA4FD6412 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				830EFF659A1857F273277800 /* Fraunces-Italic.ttf */,
+				D65DF0638592CCF250F2A0F1 /* Fraunces-Regular.ttf */,
+				5E62AB96ED814B3E55BDC6B1 /* Fraunces-SemiBold.ttf */,
+				A99488E01FF20CF40F0029B5 /* Gaegu-Bold.ttf */,
+				8D1A64D207B28372A0B50304 /* IBMPlexMono-Medium.ttf */,
+				DFA23851B9F3F20352AD8D45 /* IBMPlexMono-Regular.ttf */,
+				3EEE770A0F8B85F2BD90AEDF /* IBMPlexMono-SemiBold.ttf */,
+				A1286ED3739DB6F733A15461 /* InstrumentSans-Bold.ttf */,
+				139BA2DB716938FCBE0EE98B /* InstrumentSans-Medium.ttf */,
+				D350DAD1FF3770903727570A /* InstrumentSans-Regular.ttf */,
+				75E09CC14790247A2B9555A4 /* InstrumentSans-SemiBold.ttf */,
+			);
+			path = "Fonts";
+			sourceTree = "<group>";
+		};
+		4BE14A0E3731060B717464F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C50F98321C0857EDA4FD6412 /* Fonts */,
+				7D75AEC6A2AB2AEAD2722E60 /* Assets.xcassets */,
+				FBCBDD8F32721E1B9C452AA8 /* Info.plist */,
+				F41127887029EB5C5D3B999D /* Nobi.entitlements */,
+			);
+			path = "Resources";
+			sourceTree = "<group>";
+		};
+		25B63C33352B4049D3342E54 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				651143D878C5E50A608CD863 /* NobiTheme.swift */,
+			);
+			path = "Theme";
+			sourceTree = "<group>";
+		};
+		A5D4C48FED6DEF17FDBE050A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6BB653AF447B66600A35CC19 /* FleetComponents.swift */,
+				07F8DE03E283DC9E6062E783 /* InkEffects.swift */,
+				241FC60D7B0072282B9C52EE /* KairoViews.swift */,
+				ED3F46B17D84CD0E5355AD78 /* OLEDPreviewView.swift */,
+			);
+			path = "Components";
+			sourceTree = "<group>";
+		};
+		52BC1D97889AA488BC8DD45D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BAF0CDCF80F7781D393E3861 /* MainShellView.swift */,
+				81E963D12E5FBF53ECC8455B /* SplashView.swift */,
+			);
+			path = "Navigation";
+			sourceTree = "<group>";
+		};
+		9F505E6B28948A29C52C2297 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4C48FED6DEF17FDBE050A /* Components */,
+				52BC1D97889AA488BC8DD45D /* Navigation */,
+				A6AAA53A1BE73183A51A0F38 /* CreateView.swift */,
+				D0D6C82D5A89406BFDBA373E /* EmotionsView.swift */,
+				FDA273143B5E957B4151628F /* FocusView.swift */,
+				5F491CA7391F68E6EBD1377D /* GoalsView.swift */,
+				30BB354116B14590E9B815A0 /* HomeView.swift */,
+				8C1776656D8AE11C81C67CD0 /* ImageView.swift */,
+				AD6BBA9872CFB4143A09CB8E /* MusicView.swift */,
+				64C422117BF29D360173209B /* NotificationView.swift */,
+				55A9D63138F359C281BF56B5 /* PairingSheet.swift */,
+				5A41A07A9AEBC6738706690C /* PlayView.swift */,
+				4BB72477F83C7AAA8DFE9F26 /* RemindersView.swift */,
+				62668DA4A87FD5C2C44BFF13 /* RobotsView.swift */,
+				522A60E25C599183275518E0 /* SettingsView.swift */,
+				F558A0DBB74C419418EDF431 /* TextView.swift */,
+			);
+			path = "Views";
+			sourceTree = "<group>";
+		};
+		A02FDE20FACC79E3FB6E55B1 /* Nobi */ = {
+			isa = PBXGroup;
+			children = (
+				E62DEFE36098197A95877730 /* App */,
+				C4CB3EA3341E4F7B3A52C5D6 /* Bluetooth */,
+				6933F8856A87960906933175 /* Image */,
+				48CEF4B802498A27FB41C7C6 /* Models */,
+				4BE14A0E3731060B717464F8 /* Resources */,
+				25B63C33352B4049D3342E54 /* Theme */,
+				9F505E6B28948A29C52C2297 /* Views */,
+			);
+			path = "Nobi";
+			sourceTree = "<group>";
+		};
+		92E159095BC9083689AC49C0 = {
+			isa = PBXGroup;
+			children = (
+				A02FDE20FACC79E3FB6E55B1 /* Nobi */,
+				CDA5334174F63FD0B7185AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA5334174F63FD0B7185AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D8A17FA99449324E6D5890 /* Nobi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297694A66FBDD3CF52493B43 /* Nobi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DA2791D2DAA603378828471 /* Build configuration list for PBXNativeTarget "Nobi" */;
+			buildPhases = (
+				D64381070A0D895ED3643B27 /* Sources */,
+				7EF63892A988681F2A0CB6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nobi;
+			packageProductDependencies = (
+			);
+			productName = Nobi;
+			productReference = C0D8A17FA99449324E6D5890 /* Nobi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572AC1F0D7D6D6EE85C11B54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					297694A66FBDD3CF52493B43 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6BA663F1B801EFCD85790C3 /* Build configuration list for PBXProject "Nobi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 92E159095BC9083689AC49C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CDA5334174F63FD0B7185AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297694A66FBDD3CF52493B43 /* Nobi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EF63892A988681F2A0CB6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB05A2D4FF9E63F9E8BC19DC /* Assets.xcassets in Resources */,
+				D7404AFECA237A0B61207813 /* Fraunces-Italic.ttf in Resources */,
+				289B76890E3BDEE0593300B6 /* Fraunces-Regular.ttf in Resources */,
+				9895FCF8EBFCD91EDA5E420D /* Fraunces-SemiBold.ttf in Resources */,
+				CDC44A665C6B062C019065D0 /* Gaegu-Bold.ttf in Resources */,
+				DB5C68847F64A1C2558DD20F /* IBMPlexMono-Medium.ttf in Resources */,
+				E4CFFEEF905163CD3028A821 /* IBMPlexMono-Regular.ttf in Resources */,
+				942EC0FC5623BAB7285FE173 /* IBMPlexMono-SemiBold.ttf in Resources */,
+				1AB33E4CE428A4FDB42D61B5 /* InstrumentSans-Bold.ttf in Resources */,
+				2BB7EBE79904F1F1C1D219DC /* InstrumentSans-Medium.ttf in Resources */,
+				37682118834B895034D67608 /* InstrumentSans-Regular.ttf in Resources */,
+				9F0BFA18864452EF8BB41BCC /* InstrumentSans-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64381070A0D895ED3643B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE88A9CDC46D1309D9B2A02 /* NobiApp.swift in Sources */,
+				6DD9E1054666DFC58A45D4BA /* NobiDeviceState.swift in Sources */,
+				2C9E383648E45041F805F92A /* NobiFleet.swift in Sources */,
+				6DE58ABCA09C5FA279A6049A /* NobiProtocol.swift in Sources */,
+				C105CDDFC7595400672171D2 /* NobiProximityMonitor.swift in Sources */,
+				B8FBC037B3190107D2E1A920 /* NobiRobot.swift in Sources */,
+				E88F62C543CC088B2E895B72 /* Dithering.swift in Sources */,
+				6B1D60D7A66ADD375A122373 /* NobiImageConverter.swift in Sources */,
+				B98C90D847C5C9DE9944DEB4 /* KairoFeatures.swift in Sources */,
+				CA821FB3B3D36A1AF2B4C486 /* KairoMusic.swift in Sources */,
+				0FD752379D7173CCAC00536F /* NobiEmotion.swift in Sources */,
+				D0DDB3940EC578E409A24495 /* NobiGame.swift in Sources */,
+				91139B1C172B264082C223B3 /* NobiPet.swift in Sources */,
+				E0660B0DD70A9C9190AA25A5 /* NobiTheme.swift in Sources */,
+				E3206F96BF24F2F673E491E8 /* FleetComponents.swift in Sources */,
+				4F12D01807F7AC607515FE0A /* InkEffects.swift in Sources */,
+				CF4D8C6CA078723F45C890BB /* KairoViews.swift in Sources */,
+				4209055C26C3CB687A513722 /* OLEDPreviewView.swift in Sources */,
+				D1FB4D1B6FA0FB0B70CAF00C /* CreateView.swift in Sources */,
+				45BAD5E8E6B285425E446458 /* EmotionsView.swift in Sources */,
+				E74D93EA9E74A1A5A09265F0 /* FocusView.swift in Sources */,
+				3F661C7A6C108B9559CC8F2F /* GoalsView.swift in Sources */,
+				BA99DE1F58FBCB8DA029A326 /* HomeView.swift in Sources */,
+				4A8223F6F70E0A478C4FC38F /* ImageView.swift in Sources */,
+				72E3947663D7FF5D8C98993A /* MusicView.swift in Sources */,
+				92A729DB8D61A3FEAA92C36D /* MainShellView.swift in Sources */,
+				1906E76849D3059A2F466DB6 /* SplashView.swift in Sources */,
+				A23C9A6C303B129E9A8AC99A /* NotificationView.swift in Sources */,
+				46D57F4939CE2E0234630F15 /* PairingSheet.swift in Sources */,
+				05AC4CE5354571D741D5ECF6 /* PlayView.swift in Sources */,
+				C3C81EBDF4F05708D299A616 /* RemindersView.swift in Sources */,
+				713CED0FAE20E0A16D729658 /* RobotsView.swift in Sources */,
+				36C4994FE1B23121FA597BDA /* SettingsView.swift in Sources */,
+				B6AAC893F7783263C65B4737 /* TextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		387BD38DCCD5F71930357E0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nobi/Resources/Nobi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD4LV2WMH4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nobi/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.nobirobotics;
+				PRODUCT_NAME = Nobi;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6841AC8E3179A32A0898164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0569663892F45087032162E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Nobi/Resources/Nobi.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VD4LV2WMH4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Nobi/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.nobirobotics;
+				PRODUCT_NAME = Nobi;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F55F89153A5BD445F8C95A67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DA2791D2DAA603378828471 /* Build configuration list for PBXNativeTarget "Nobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387BD38DCCD5F71930357E0B /* Debug */,
+				F0569663892F45087032162E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6BA663F1B801EFCD85790C3 /* Build configuration list for PBXProject "Nobi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6841AC8E3179A32A0898164F /* Debug */,
+				F55F89153A5BD445F8C95A67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 572AC1F0D7D6D6EE85C11B54 /* Project object */;
+}
